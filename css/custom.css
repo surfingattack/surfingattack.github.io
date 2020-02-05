@@ -2,6 +2,16 @@ body{
 
 	text-align:center;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
 
 .my-4 {
   margin-top: 1.5rem !important;
@@ -38,7 +48,7 @@ a:active {
 
 			.boxed {
 				padding: 0.5em 2em 2em 2em;
-				background-color: #F8F8F8;
+				background-color: #FFFFFF;
 
 				max-width: 90%;
 				margin: 0 auto !important;
